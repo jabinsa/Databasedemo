@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/ath"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SPLITTER"
+        android:id="@+id/textView6"
+        android:padding="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+
+    <TableLayout
+        android:id="@+id/cstable"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/csrgroup"
+        android:layout_marginTop="16dp"
+
+        android:layout_weight="0"
+
+        >
+
+        <TableRow android:layout_height="wrap_content"
+            android:id="@+id/ctr1"
+           android:paddingLeft="10dp"
+            android:background="#ff9d9d9d"
+            android:layout_width="20dp">
+
+            <TextView
+                android:id="@+id/cgr1c1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AXB"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+                android:textColor="#ff090909" />
+
+            <TextView
+                android:id="@+id/cgr1c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Standard Values"
+                android:textSize="25dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="#ff020202" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ctr2"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1 X 2"
+
+                android:id="@+id/textView8"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ctr3"
+            android:padding="10dp"
+            android:background="#ff9d9d9d">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1 X 4"
+
+                android:id="@+id/textView10"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView11" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ctr5"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1 X 8"
+                android:id="@+id/textView14"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView15" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ctr6"
+            android:padding="10dp"
+            android:background="#ff9d9d9d">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1 X 16"
+                android:id="@+id/textView16"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView17" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ct7"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1 X 32"
+                android:id="@+id/textView18"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView19" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ct8"
+            android:padding="10dp"
+            android:background="#ff9d9d9d">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1 X 64"
+                android:id="@+id/textView12"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:id="@+id/textView13" />
+        </TableRow>
+
+    </TableLayout>
+
+    <RadioGroup
+        android:id="@+id/csrgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        >
+
+        <RadioButton
+            android:id="@+id/csrB11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gain"
+            android:textSize="25dp"
+            android:paddingRight="30dp"
+            android:textStyle="bold|italic" />
+
+        <RadioButton
+            android:id="@+id/csrB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:text="Loss"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+    </RadioGroup>
+
+
+</RelativeLayout>

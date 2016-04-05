@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/ath">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="REGISTRATION"
+
+        android:id="@+id/textView22"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/tvname"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignStart="@+id/tvconfirmpass" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etname"
+        android:hint="              "
+        android:visibility="visible"
+        android:layout_alignTop="@+id/tvname"
+        android:layout_alignEnd="@+id/etpassword"
+        android:layout_alignStart="@+id/etpassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password"
+        android:id="@+id/tvpassword"
+        android:layout_alignTop="@+id/etpassword"
+        android:layout_toStartOf="@+id/textView22" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etpassword"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Confirm"
+        android:id="@+id/tvconfirmpass"
+        android:layout_marginTop="60dp"
+        android:gravity="fill_horizontal|center_horizontal"
+        android:layout_below="@+id/etpassword"
+        android:layout_alignEnd="@+id/tvpassword" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etconfirmpass"
+        android:layout_alignTop="@+id/tvconfirmpass"
+        android:layout_alignStart="@+id/etpassword" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/bssss"
+
+        android:layout_below="@+id/etconfirmpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Sign UP" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/tvconfirmpass"
+        android:layout_alignStart="@+id/tvconfirmpass" />
+</RelativeLayout>

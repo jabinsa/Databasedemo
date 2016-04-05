@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/ath">
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:background="@drawable/loginicon"
+        android:id="@+id/tvvvv"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NAME"
+        android:paddingLeft="20dp"
+        android:id="@+id/tvname"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/tvvvv"
+        android:layout_toStartOf="@+id/tvvvv" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnammme"
+        android:visibility="visible"
+        android:width="200dp"
+        android:paddingRight="20dp"
+        android:layout_alignTop="@+id/tvname"
+        android:layout_alignStart="@+id/etpasssword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PASSWORD"
+        android:id="@+id/textView24"
+android:paddingLeft="20dp"
+        android:layout_alignBottom="@+id/etpasssword"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etpasssword"
+android:paddingRight="20dp"
+        android:visibility="visible"
+        android:width="200dp"
+        android:layout_below="@+id/etnammme"
+        android:layout_alignStart="@+id/button22"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/button22"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:background="#ffb1c7ff" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/ath">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="375dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="get info from database "
+        android:id="@+id/tvout"
+        android:layout_below="@+id/table1"
+        android:layout_alignStart="@+id/table1" />
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="84dp"
+        android:id="@+id/table1">
+
+        <TableRow
+        >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="A Standard"
+                android:id="@+id/tv"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"
+                android:id="@+id/tv1"
+                android:text="B Standard"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Standard values"
+        android:id="@+id/bedit"
+        android:layout_below="@+id/tvout"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coupler Standard Values"
+        android:id="@+id/textView7"
+        android:paddingTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/table1" />
+
+</RelativeLayout>
